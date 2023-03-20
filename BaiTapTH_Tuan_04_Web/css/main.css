@@ -1,0 +1,370 @@
+/* khung lam bai */
+body{
+    margin: 0;
+}
+.center{
+    width: 910px;
+}
+.left{
+    width: 314px;
+    float: left;
+    margin-left: 22px;
+    border-left: 1px solid #999;
+}
+.app{
+    display: flex;
+}
+
+.right{
+    float: right;
+    width: 80px;
+    border-right: 1px solid #999;
+}
+
+.right-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 363px;
+    margin-top: 8px;
+  }
+
+.right-top-menu{
+    margin: 14px 0;
+} 
+
+.right-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 220px;
+}
+
+.right-bottom__setting{
+    margin-top: 10px;
+}
+
+/* Center */
+.center__title{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 24px;
+    align-items: center;
+}
+.center__title-datespan{
+    display: flex;
+    margin: 0 26px;
+    margin-top: -8px;
+    align-items: center;
+}
+#date{
+    height: 20%;
+    position: relative;
+    top: -2px;
+    margin: 0 26px;
+    /* border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: solid 1px #999; */
+    border: none;
+    margin-top: 2px;
+}
+#date::after{
+    content: "";
+    width: 1px;
+    height: 11px;
+    margin-left: 20px;
+    margin-top: 1px;
+    background-color: #999;
+}
+
+.center__title-time-button{
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 20px;
+    height: 30px;
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+}
+.center__title-dataspan-button{
+    height: 25px;
+    width: 13%;
+    border-radius: 12px;
+    border: 1px solid #F54C4C;
+    background-color:#e34d73;
+    color: white;
+}
+
+
+/* center pig */
+.center-image-pig{
+    width: 862px;
+    height: 400px;
+    margin-left: 24px;
+    margin-top: -32px;
+}
+
+.center-image-title{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 56px;
+    position: relative;
+    top: 20px;
+    align-items: center;
+}
+
+.center-image-title-mic-png{
+    width: 80%;
+}
+
+.center-image-title-word{
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    background-color: #747577;
+} 
+
+
+/* .center-image-title-word-benjamin{
+    position: relative;
+    top: -11px;
+}  */
+
+.center-image-bottom-png{
+    width: 32%;
+    height: 30%;
+}
+
+.center-image-bottom{
+    margin-left: 24px;
+    margin-top: 18px;
+}
+
+.center__title-time-dot{
+    position: relative;
+    top: 20px;
+    width: 15%;
+    height: 10px;
+    border-radius: 50%;
+    left: 5px;
+    content: "";
+    background-color: red;
+}
+
+.center-image-bottom-chri{
+    display: flex;
+    height: 25px;
+    width: 234px;
+    justify-content: space-between;
+}
+
+.center-image-bottom-chri-button{
+    background-color:rgb(120,120,120);
+    border:none;
+    border-radius: 3px;
+}
+
+.center-image-bottom-container{
+    display: flex;
+    position: relative;
+    top: -168px;
+    left: 15px;   
+}
+
+.center-image-bottom-png{
+    margin-left: 6px;
+}
+
+.button__mot{
+    margin-left: 8px;
+}
+.img__mot{
+    margin-right: -27px;
+}
+.img__hai{
+    margin-left: 12px;
+    position: relative;
+    left: 64px;
+}
+.img__ba{
+    margin-left: 8px;
+    position: relative;
+    left: 121px;
+}
+
+.button__hai{
+    margin-left: 58px;
+}
+
+.button__ba{
+    margin-left: 20px;
+    position: relative;
+    left: 90px;
+}
+
+/* image-end */
+
+.center-image-bottom__end-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fas-tv{
+    padding: 14px;
+    background-color: #9095a0;
+}
+
+.center-image-bottom__end-end-cam{
+    padding: 6px;
+    background-color: #9095a0;
+}
+
+.center-image-bottom__end-end-button{
+    padding: 12px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.center-size{
+    margin: 0 10px;
+    border-radius: 4px;
+}
+
+/* leftttttttttt */
+.left__top{
+    border-bottom: 1.5px solid #999;
+}
+
+.left__top-add{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.left__top-add-button{
+    height: 25px;
+    width: 60px;
+    border-radius: 4px;
+    border: 1px solid #e34d73;
+    color: #e34d73;
+}
+
+.left__top-add-content-button{
+    margin-left: -56px;
+    height: 18px;
+    border-radius: 55%;
+    position: relative;
+    top: 1px;
+    border: none;
+    background-color: #fdf2f4;
+    color: #e35377;
+}
+
+.left__top-list-user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left__top-list-user-img1{
+    margin-left: 10px;
+}
+.left__top-list-user-img2{
+    margin-left: 6px;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+.left__top-list-user-img3{
+    margin-left: 70px;
+}
+.left__top-list-user-img4{
+    margin-left: 5px;
+}
+.left__top-list-user-img5{
+    margin-left: 5px;
+}
+
+/* left top chat */
+.left__top-chat-title{
+    font-size: 1.8rem;
+    margin: 20px 32px;
+    font-weight: bold;
+}
+
+.left__top-chat-comment-many{
+    display: flex;
+    height: 48px;
+    align-items: center;
+    margin-left: 32px;
+}
+
+.left__top-add-content-button{
+    margin-left: -53px;
+    height: 18px;
+    border-radius: 55%;
+    position: relative;
+    top: 1px;
+    border: none;
+    background-color: #fdf2f4;
+    color: #e35377;
+}
+
+.left__top-chat-comment-name{
+    margin-left: 10px;
+}
+
+.left__top-chat-comment-time{
+    margin-left: 5px;
+    color: #999;
+    font-weight: 100;
+}
+
+.left__top-chat-comment-button{
+    width: 243px;
+    margin-left: 77px;
+    margin-top: -1px;
+    background-color: #999;
+    border: none;
+}
+
+.left__top-chat-comment-button-smile{
+    margin-left: 80px;
+    padding: 9px 9px;
+    background-color: #999;
+}
+
+.left__top-end{
+    margin-left: 76px;
+    display: flex;
+    align-items: center;
+}
+.left__top-end-text{
+    margin-top: 20px;
+    height: 20px;
+    width: 180px;
+}
+
+.left__top-end-img{
+    position: relative;
+    top: 12px;
+    margin-left: 5px;
+}
+
+.left__top-end-div{
+    display: flex;
+    align-items: center;
+}
+
+.left__top-end-img-smile{
+    position: relative;
+    top: 10px;
+    left: -25px;
+}
+/* 
+hoàn thanh bai */
