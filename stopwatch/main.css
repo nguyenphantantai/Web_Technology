@@ -1,0 +1,28 @@
+.stopwatch{
+    text-align: center;
+    font-size: 2em;
+    margin: 20px;
+}
+.stopwatch.display{
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    min-width: 100px;
+}
+.stopwatch button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background: #666;
+    color: #fff;
+    cursor: pointer;
+}
+.stopwatch button:hover{
+    background: #555;
+}
+.stopwatch button:active{
+    background: #444;
+}
